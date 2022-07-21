@@ -1,0 +1,92 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #440303;
+    
+}
+
+header{
+    background: linear-gradient(90deg, rgba(68,3,3,1) 0%, rgba(0,0,0,1) 86%);
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+h1.h1{
+    display: flex;
+    color: white;
+    text-align: center;
+    align-items: center;
+    padding-right: 12%;
+    font-size: 4em;
+    text-shadow: 10px 2px 10px rgb(143, 9, 9);
+}
+
+div{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+div h2{
+    width: 400px;
+    font-size: 2rem;
+}
+
+div button{
+    margin-left: 8%;
+    padding: 4% 4% 10% 4%;
+    font-size: 1.5rem;
+}
+
+section{
+    display: flex;
+}
+
+h1.texto{
+    text-align: center;
+    font-size: 4rem;
+    color: white;
+    padding-left: 50px;
+}
+
+img.sunny{
+    width: 20%;
+    height: 20%;
+    
+}
+
+img.luffy{    
+    width: 30%;
+}
+
+h2{
+    color: white;
+    padding-top: -5px;
+}
+
+div#luffy{
+    display: block;
+}
+
+#luffy{
+    padding: 12.5%;
+}
+
+button{
+    margin-top: 35px;
+    border-color: white;
+    border-radius: 1rem;
+    height: 50px;
+}
+
+button:hover{
+    background-color: #440303;
+    color: white;
+    transition: 0.8s;
+    cursor: pointer;
+}
